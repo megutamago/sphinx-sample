@@ -1,0 +1,68 @@
+:orphan:
+
+sphinx　練習
+=======================
+
+.. toctree::
+   :caption: OverView
+
+| 試しに、こんな感じのページを
+| 作ってみる！
+
+====== ================
+ID      Value
+====== ================
+3      データ3
+4      データ4
+====== ================
+
+
+foo
+-------
+
+.. seqdiag::
+   :desctable:
+
+   seqdiag {
+      A -> B[label = "test"];
+      B -> C[label = "test"];
+      A [description = "browsers in each client"];
+      B [description = "web server"];
+      C [description = "database server"];
+   }
+
+
+>>> 1 + 1
+2
+
+.. literalinclude:: s.py
+.. literalinclude:: sample.txt
+.. include:: sample.rst
+.. code-block:: python
+
+   import request
+
+
+.. literalinclude:: a.sh
+
+
+.. py:function:: spam(eggs)
+                 ham(eggs)
+
+   Spam or ham the foo.
+
+.. py:class:: Foo
+
+   .. py:method:: quux()
+ 
+-- or --
+
+.. py:class:: Bar
+
+.. py:method:: Bar.quux()
+
+
+.. include:: jupyter.rst
+.. mdinclude:: j.md
+
+

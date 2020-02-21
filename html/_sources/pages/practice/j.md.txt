@@ -1,0 +1,27 @@
+```python
+import numpy as np
+```
+
+
+```python
+arr = [[1, 2], [3, 4]]
+a = np.array(arr)
+```
+
+
+```python
+a
+```
+
+
+
+
+    array([[1, 2],
+           [3, 4]])
+
+
+
+
+```python
+
+```

@@ -1,0 +1,23 @@
+.. code:: ipython3
+
+    import numpy as np
+
+.. code:: ipython3
+
+    arr = [[1, 2], [3, 4]]
+    a = np.array(arr)
+
+.. code:: ipython3
+
+    a
+
+
+
+
+.. parsed-literal::
+
+    array([[1, 2],
+           [3, 4]])
+
+
+
